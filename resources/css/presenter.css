@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.presenter {}
+
+.marker-selector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+.marker-selector__item {
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: #8595a1;
+    cursor: pointer;
+}
+.marker-selector__item-image {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 16px auto auto;
+}
+
+.marker-viewer {
+    height: calc(100vh - 74px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

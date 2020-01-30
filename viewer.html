@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebAR demo. Viewer.</title>
+
+        <script src="resources/js/lib/aframe/aframe.min.js"></script>
+        <script src="resources/js/lib/ar.js/aframe-ar.min.js"></script>
+    </head>
+    <body>
+        <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
+            <a-marker type="pattern" preset="custom" url="resources/patt/cone.patt">
+                <a-box position='0 0.5 0' color="yellow"></a-box>
+            </a-marker>
+
+            <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>

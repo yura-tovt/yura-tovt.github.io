@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebAR demo. Presenter.</title>
+        <link rel="stylesheet" href="resources/css/presenter.css">
+    </head>
+    <body>
+        <main class="presenter">
+            <div class="marker-selector">
+                <div class="marker-selector__item" data-marker="cube">
+                    <img src="resources/img/cube.png" class="marker-selector__item-image">
+                </div>
+                <div class="marker-selector__item" data-marker="cylinder">
+                    <img src="resources/img/cylinder.png" class="marker-selector__item-image">
+                </div>
+                <div class="marker-selector__item" data-marker="cone">
+                    <img src="resources/img/cone.png" class="marker-selector__item-image">
+                </div>
+                <div class="marker-selector__item" data-marker="sphere">
+                    <img src="resources/img/sphere.png" class="marker-selector__item-image">
+                </div>
+                <div class="marker-selector__item" data-marker="pyramid">
+                    <img src="resources/img/pyramid.png" class="marker-selector__item-image">
+                </div>
+            </div>
+            <div class="marker-viewer">
+                <img src="resources/marker/cube.png" class="marker-viewer__marker">
+            </div>
+        </main>
+
+        <script src="resources/js/presenter.js"></script>
+        <script defer>
+            var app = new App();
+            app.run();
+        </script>
+    </body>
+</html>

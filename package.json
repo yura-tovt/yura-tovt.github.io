@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "aframe": "^1.0.3",
+    "ar.js": "^2.1.4"
+  }
+}
